@@ -1,0 +1,5 @@
+SMTP Password.txt
+.env
+.env.*
+!.env.example
+config.local.*
