@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "contract_type": "localci.application",
+  "status": "proposal",
+  "repository": "DantyDCook/WGU-D191-VDM1",
+  "source": {
+    "branch": "main",
+    "immutable_commit_required": true
+  },
+  "project_kind": "postgresql-course-project",
+  "test_profiles": [
+    "sql-static-parse",
+    "pgsql-file-integrity",
+    "migration-order-consistency",
+    "isolated-db-integration"
+  ],
+  "release": {
+    "requested_destination": "none"
+  },
+  "security": {
+    "central_policy_required": true,
+    "allow_app_defined_executables": false,
+    "allow_disable_required_gates": false,
+    "allow_unreviewed_publisher_updates": false
+  }
+}
